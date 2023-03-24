@@ -1,5 +1,5 @@
 FROM hadoop-hive-spark-base AS base
-FROM tensorflow/tensorflow:latest-gpu-jupyter
+FROM tensorflow/tensorflow:2.12.0-gpu-jupyter
 
 RUN rm /etc/apt/sources.list.d/cuda.list
 RUN rm /etc/apt/sources.list.d/custom.list
