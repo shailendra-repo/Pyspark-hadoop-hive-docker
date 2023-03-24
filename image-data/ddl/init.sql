@@ -1,0 +1,3 @@
+CREATE DATABASE "metastore";
+CREATE USER jovyan WITH ENCRYPTED PASSWORD 'jovyan';
+GRANT ALL ON DATABASE metastore TO jovyan;
