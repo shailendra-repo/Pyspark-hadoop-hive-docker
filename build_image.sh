@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 docker build --no-cache -t hadoop-hive-spark-base ./base
 docker build --no-cache -t hadoop-hive-spark-master ./master
