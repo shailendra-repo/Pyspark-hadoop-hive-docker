@@ -5,9 +5,9 @@ Two steps to create a pyspark hadoop cluster using docker.
 2. Run docker compose command to start the cluster.
 
 Base image used are as below:
-  tensorflow/tensorflow:2.12.0-gpu-jupyter
-  jupyter/minimal-notebook:python-3.8
-  postgres:11
+* tensorflow/tensorflow:2.12.0-gpu-jupyter
+* jupyter/minimal-notebook:python-3.8
+* postgres:11
 
 
 ## Software
